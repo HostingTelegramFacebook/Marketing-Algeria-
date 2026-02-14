@@ -23,21 +23,21 @@ body {
     background: #1e1e1e;
 }
 ::-webkit-scrollbar-thumb {
-    background: #ff4444;
+    background: #4CAF50;
     border-radius: 5px;
 }
 ::-webkit-scrollbar-thumb:hover {
-    background: #ff6666;
+    background: #6fbf73;
 }
 
 /* الروابط */
 a {
     text-decoration: none;
-    color: #ff4444;
+    color: #4CAF50;
     transition: color 0.3s;
 }
 a:hover {
-    color: #ff6666;
+    color: #6fbf73;
 }
 
 /* شريط التنقل */
@@ -47,7 +47,7 @@ a:hover {
     align-items: center;
     padding: 1rem 5%;
     background-color: #1e1e1e;
-    border-bottom: 2px solid #ff4444;
+    border-bottom: 2px solid #4CAF50;
     position: sticky;
     top: 0;
     z-index: 100;
@@ -59,7 +59,7 @@ a:hover {
     gap: 0.5rem;
     font-size: 1.5rem;
     font-weight: bold;
-    color: #ff4444;
+    color: #4CAF50;
 }
 
 .logo i {
@@ -80,16 +80,21 @@ a:hover {
     transition: background-color 0.3s, color 0.3s;
 }
 
-.nav-links a:hover, .nav-links a.active {
-    background-color: #ff4444;
+.nav-links a:hover,
+.nav-links a.active {
+    background-color: #4CAF50;
     color: #121212;
 }
 
 .burger {
     display: none;
     font-size: 1.8rem;
-    color: #ff4444;
+    color: #4CAF50;
     cursor: pointer;
+    transition: color 0.3s;
+}
+.burger:hover {
+    color: #6fbf73;
 }
 
 /* التذييل */
@@ -97,7 +102,7 @@ footer {
     text-align: center;
     padding: 1.5rem;
     background-color: #1e1e1e;
-    border-top: 2px solid #ff4444;
+    border-top: 2px solid #4CAF50;
     margin-top: auto;
 }
 
@@ -125,12 +130,12 @@ footer {
 
 .logo-large i {
     font-size: 4rem;
-    color: #ff4444;
+    color: #4CAF50;
 }
 
 .logo-large h1 {
     font-size: 2.5rem;
-    color: #ff4444;
+    color: #4CAF50;
 }
 
 .flag {
@@ -148,15 +153,15 @@ footer {
     border-radius: 20px;
     padding: 1.5rem 2rem;
     display: inline-block;
-    box-shadow: 0 4px 15px rgba(255, 68, 68, 0.3);
+    box-shadow: 0 4px 15px rgba(76, 175, 80, 0.3);
     margin-bottom: 2rem;
-    border: 1px solid #ff4444;
+    border: 1px solid #4CAF50;
 }
 
 .member-count .count {
     font-size: 3.5rem;
     font-weight: bold;
-    color: #ff4444;
+    color: #4CAF50;
     display: block;
     line-height: 1;
 }
@@ -169,13 +174,13 @@ footer {
 
 .btn-join {
     display: inline-block;
-    background-color: #ff4444;
+    background-color: #4CAF50;
     color: #121212;
     padding: 1rem 2.5rem;
     font-size: 1.3rem;
     border-radius: 50px;
     font-weight: bold;
-    box-shadow: 0 4px 15px rgba(255, 68, 68, 0.5);
+    box-shadow: 0 4px 15px rgba(76, 175, 80, 0.5);
     transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
 }
 
@@ -184,9 +189,9 @@ footer {
 }
 
 .btn-join:hover {
-    background-color: #ff6666;
+    background-color: #6fbf73;
     transform: scale(1.05);
-    box-shadow: 0 6px 20px rgba(255, 68, 68, 0.7);
+    box-shadow: 0 6px 20px rgba(76, 175, 80, 0.7);
     color: #121212;
 }
 
@@ -199,8 +204,8 @@ footer {
 .hero-image img {
     max-width: 100%;
     border-radius: 20px;
-    border: 3px solid #ff4444;
-    box-shadow: 0 0 30px rgba(255, 68, 68, 0.3);
+    border: 3px solid #4CAF50;
+    box-shadow: 0 0 30px rgba(76, 175, 80, 0.3);
 }
 
 /* صفحة الأدمن */
@@ -211,7 +216,7 @@ footer {
 .admins h2 {
     text-align: center;
     font-size: 2.5rem;
-    color: #ff4444;
+    color: #4CAF50;
     margin-bottom: 3rem;
     position: relative;
 }
@@ -221,7 +226,7 @@ footer {
     display: block;
     width: 80px;
     height: 3px;
-    background-color: #ff4444;
+    background-color: #4CAF50;
     margin: 0.5rem auto 0;
 }
 
@@ -245,20 +250,20 @@ footer {
 
 .admin-card:hover {
     transform: translateY(-10px);
-    box-shadow: 0 10px 25px rgba(255, 68, 68, 0.4);
-    border-color: #ff4444;
+    box-shadow: 0 10px 25px rgba(76, 175, 80, 0.4);
+    border-color: #4CAF50;
 }
 
 .admin-card i.fa-user-circle {
     font-size: 5rem;
-    color: #ff4444;
+    color: #4CAF50;
     margin-bottom: 1rem;
 }
 
 .admin-card h3 {
     font-size: 1.8rem;
     margin-bottom: 1.5rem;
-    color: #ff4444;
+    color: #4CAF50;
 }
 
 .contact-info p {
@@ -271,7 +276,7 @@ footer {
 }
 
 .contact-info i {
-    color: #ff4444;
+    color: #4CAF50;
     width: 25px;
     font-size: 1.2rem;
 }
@@ -282,7 +287,7 @@ footer {
 }
 
 .contact-info a:hover {
-    color: #ff4444;
+    color: #4CAF50;
 }
 
 /* صفحة اتصل بنا */
@@ -293,7 +298,7 @@ footer {
 .contact h2 {
     text-align: center;
     font-size: 2.5rem;
-    color: #ff4444;
+    color: #4CAF50;
     margin-bottom: 3rem;
     position: relative;
 }
@@ -303,7 +308,7 @@ footer {
     display: block;
     width: 80px;
     height: 3px;
-    background-color: #ff4444;
+    background-color: #4CAF50;
     margin: 0.5rem auto 0;
 }
 
@@ -340,12 +345,12 @@ footer {
 .contact-form input:focus,
 .contact-form textarea:focus {
     outline: none;
-    border-color: #ff4444;
-    box-shadow: 0 0 10px rgba(255, 68, 68, 0.3);
+    border-color: #4CAF50;
+    box-shadow: 0 0 10px rgba(76, 175, 80, 0.3);
 }
 
 .contact-form button {
-    background-color: #ff4444;
+    background-color: #4CAF50;
     color: #121212;
     padding: 1rem 2rem;
     border: none;
@@ -360,7 +365,7 @@ footer {
 }
 
 .contact-form button:hover {
-    background-color: #ff6666;
+    background-color: #6fbf73;
     transform: scale(1.02);
 }
 
@@ -372,7 +377,7 @@ footer {
 
 .social-links h3 {
     font-size: 1.8rem;
-    color: #ff4444;
+    color: #4CAF50;
     margin-bottom: 2rem;
 }
 
@@ -391,14 +396,14 @@ footer {
     height: 60px;
     background-color: #2a2a2a;
     border-radius: 50%;
-    color: #ff4444;
+    color: #4CAF50;
     font-size: 2rem;
     transition: all 0.3s;
-    border: 2px solid #ff4444;
+    border: 2px solid #4CAF50;
 }
 
 .social-icons a:hover {
-    background-color: #ff4444;
+    background-color: #4CAF50;
     color: #121212;
     transform: translateY(-5px);
 }
@@ -414,32 +419,32 @@ footer {
         width: 100%;
         background-color: #1e1e1e;
         padding: 1rem 0;
-        border-bottom: 2px solid #ff4444;
+        border-bottom: 2px solid #4CAF50;
         text-align: center;
     }
-    
+
     .nav-links.active {
         display: flex;
     }
-    
+
     .burger {
         display: block;
     }
-    
+
     .hero {
         flex-direction: column;
         text-align: center;
     }
-    
+
     .logo-large {
         justify-content: center;
     }
-    
+
     .member-count {
         display: block;
         text-align: center;
     }
-    
+
     .contact-container {
         flex-direction: column;
         padding: 2rem;
@@ -454,4 +459,4 @@ footer {
 
 .hero, .admins, .contact {
     animation: fadeIn 0.8s ease-out;
-  }
+}
